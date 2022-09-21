@@ -10,19 +10,27 @@ header {
     height: 60px;
     width: 100%;
     line-height: 60px;
-    /* position: fixed; */
     background-color: #2a607c;
 }
 
 li {
     display: inline;
     padding: 0px 20px;
-    /* float: right; */
     text-decoration: none;
 }
 
 a {
-    text-decoration: none;
     color: #ffffff;
     font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* Utility Classes */
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
 }
